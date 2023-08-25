@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    direction: rtl;
+}
+
+.btn-primary{
+    @apply text-secondary border-primary bg-primary ;
+}
+
+.btn-primary-outlined{
+    @apply text-primary border-primary bg-transparent ;
+}
+
+.btn-secondary-outlined{
+    @apply text-secondary border-secondary bg-transparent ;
+}
+
+.btn-secondary{
+    @apply text-gray border-secondary bg-secondary;
+}
+
+.btn-red{
+    @apply text-gray border-red bg-red;
+}
+
+.btn-green{
+    @apply text-gray border-green bg-green;
+}
+
+.btn-base{
+    @apply  text-xs md:text-base
+}
+
+.btn-lg{
+    @apply  text-sm md:text-lg
+}
+
+.btn-sm{
+    @apply  text-[10px] md:text-sm
+}
